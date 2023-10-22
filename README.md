@@ -1,1 +1,2 @@
-# devcontainers templates
+# minidump
+
