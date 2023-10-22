@@ -1,0 +1,26 @@
+{
+	"name": "aws-tailwind",
+
+	"image": "ghcr.io/isaacsancheza/images:aws-node18",
+
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+	"workspaceFolder": "/workspace",
+
+	"remoteUser": "codespace",
+
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"esbenp.prettier-vscode",
+				"ms-python.vscode-pylance",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	}
+}
