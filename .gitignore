@@ -507,6 +507,7 @@ cdk.out
 
 # isaacsancheza
 invoke.py
+chalice-dump-deps.sh
 
 ## aws-cdk
 outputs.json
