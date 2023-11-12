@@ -515,3 +515,5 @@ outputs.json
 **/.chalice/deployments/
 **/.chalice/venv/
 **/chalice.out/
+**/chalice/vendor
+
