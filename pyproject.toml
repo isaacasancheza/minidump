@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+addopts = [
+  "-vv",
+    "--strict-markers",
+    "--import-mode=importlib",
+]
+pythonpath = [
+  "."
+]
