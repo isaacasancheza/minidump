@@ -502,18 +502,11 @@ __pycache__
 # CDK asset staging directory
 .cdk.staging
 cdk.out
-
-# isaacsancheza
-invoke.py
-chalice-dump-deps.sh
-!**layers/env
-
-## aws-cdk
 outputs.json
 
-## aws-chalice
-**/.chalice/deployments/
-**/.chalice/venv/
-**/chalice.out/
-**/chalice/vendor
+## custom aws-cdk files
+!**layers/env
+**/functions/**/script.py
 
+# isaacsanchea/minidump
+invoke.py
