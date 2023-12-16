@@ -502,11 +502,11 @@ __pycache__
 # CDK asset staging directory
 .cdk.staging
 cdk.out
-outputs.json
 
 ## custom aws-cdk files
+outputs.json
 !**layers/env
-**/functions/**/script.py
+**/functions/*/script.py
 
 # isaacsanchea/minidump
 invoke.py
