@@ -506,7 +506,7 @@ cdk.out
 ## custom aws-cdk files
 outputs.json
 !**layers/env
-**/functions/*/script.py
+**/functions/*/script*.py
 
 # isaacsanchea/minidump
 invoke.py
