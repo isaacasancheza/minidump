@@ -502,9 +502,5 @@ __pycache__
 .cdk.staging
 cdk.out
 
-## custom aws-cdk files
+## CDK files
 outputs.json
-**/functions/*/script*.py
-
-# isaacsanchea/minidump
-invoke.py
