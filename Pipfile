@@ -7,8 +7,8 @@ name = "pypi"
 
 [dev-packages]
 mypy = "*"
+black = "*"
 pytest = "*"
-autopep8 = "*"
 coverage = "*"
 
 [requires]
