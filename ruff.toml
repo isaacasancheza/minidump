@@ -1,0 +1,5 @@
+[format]
+quote-style = "single"
+
+[lint.per-file-ignores]
+"__init__.py" = ["F401"]
